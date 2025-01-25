@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        ClaseQueEs persona = new ClaseQueEs("Sabina", 52);
+
+        //llamar al método
+        persona.saludar();
     }
 }
